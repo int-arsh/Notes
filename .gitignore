@@ -1,0 +1,65 @@
+# Dependencies
+**/node_modules
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing
+coverage
+
+# Production
+**/build
+**/dist
+**/dist-ssr
+
+# Misc
+.DS_Store
+*.pem
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files
+.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+
+# Bun
+**/bun.lockb
+**/.bun
+
+# Vite
+**/.vite/
+
+# Project specific
+**/components.json
+**/tsconfig*.json
+**/eslint.config.js 
